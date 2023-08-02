@@ -16,5 +16,5 @@ variable "region" {
 
 variable  "data-project" {
     type = string
-    default = "test"
+    default = "gab-personal-terraform-"
 }
