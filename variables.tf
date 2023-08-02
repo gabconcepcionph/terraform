@@ -6,12 +6,12 @@ locals {
 
 variable "project" {
     type= string
-    description = "ID Google project"
+    description = "terraform-394700"
 }
 
 variable "region" {
     type= string
-    description = "Region Google project"
+    description = "asia-east1"
 }
 
 variable  "data-project" {
