@@ -1,6 +1,6 @@
 terraform {
     backend "gcs" { 
-      bucket  = "terraform-github-test"
+      bucket  = "terraform-repo2"
       prefix  = "test"
     }
 }
