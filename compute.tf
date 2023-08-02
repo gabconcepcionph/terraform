@@ -2,7 +2,7 @@
 resource "google_compute_instance" "default" {
   name         = "flask-vm"
   machine_type = "f1-micro"
-  zone         = var.region
+  zone         = "${var.region}-a"
   tags         = ["ssh"]
 
   boot_disk {
