@@ -1,7 +1,7 @@
 terraform {
     backend "gcs" { 
-      bucket  = "terraform-state-jb-cicdproject"
-      prefix  = "prod"
+      bucket  = "terraform-github-test"
+      prefix  = "test"
     }
 }
 
